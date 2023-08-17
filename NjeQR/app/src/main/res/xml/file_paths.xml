@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <files-path name="files" path="." />
+    <external-path name="external_files" path="." />
+    <!-- Eğer dosyanız cihazın dahili depolama bölümünde ise, gerekli olan ek yolları burada belirtebilirsiniz -->
+</paths>

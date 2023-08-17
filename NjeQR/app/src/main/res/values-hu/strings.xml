@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NjeQR</string>
+    <string name="take_photo">Kép készítése</string>
+    <string name="scan">Kamera nyitás</string>
+    <string name="type">Típus</string>
+    <string name="content">Tartalom</string>
+    <string name="submıt">Rögzítés</string> => you can use Beküldés as well, but Rögzítés means you can submit the result
+    <string name="export">Exportálás Excel fájlba</string>
+    <string name="alert">"Ellenőrizze a beolvasás tartalmát! Ha megfelel, kattintson a Rögzítés gombra, ellenkező esetben olvasson be újra!"</string>
+</resources>

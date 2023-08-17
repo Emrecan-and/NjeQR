@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NjeQR</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="scan">OPEN SCANNER</string>
+    <string name="type">TYPE</string>
+    <string name="content">CONTENT</string>
+    <string name="submıt">SUBMIT</string>
+    <string name="export">Export as an Excel file</string>
+    <string name="alert">"When you scanned ,control the content.If value is false,Scan again.If value is true,Click submit."</string>
+</resources>

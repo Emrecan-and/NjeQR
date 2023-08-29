@@ -122,8 +122,13 @@ class MainActivity : AppCompatActivity() {
                 createExcelFile(valueList,timeList)
                 binding.ExcelButton.isEnabled=false
             } else {
-                // İzin verilmemişse, izni talep et
-                requestWriteExternalStoragePermission()
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                    createExcelFile(valueList,timeList)
+                    binding.ExcelButton.isEnabled=false
+                }
+                else{
+                    requestWriteExternalStoragePermission()}
+            }
             }
 
         }
